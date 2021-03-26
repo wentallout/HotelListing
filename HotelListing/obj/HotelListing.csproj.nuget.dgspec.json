@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "h:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj": {}
+    "H:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj": {}
   },
   "projects": {
-    "h:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj": {
+    "H:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj",
+        "projectUniqueName": "H:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj",
         "projectName": "HotelListing",
-        "projectPath": "h:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj",
+        "projectPath": "H:\\KhoaHocDotNet\\HotelListing\\HotelListing\\HotelListing.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "h:\\KhoaHocDotNet\\HotelListing\\HotelListing\\obj\\",
+        "outputPath": "H:\\KhoaHocDotNet\\HotelListing\\HotelListing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[4.0.0, )"
